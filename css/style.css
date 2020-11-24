@@ -92,6 +92,10 @@ li.addPerfil figure {
 	margin-bottom: 75px;
 }
 
+li.addPerfil {
+	padding-top: 30px;
+}
+
 .topo img {
 	border: #221f20;
 }
