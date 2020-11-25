@@ -80,12 +80,23 @@ figure {
 
 img {
 	max-width: 186px;
-	border: 1px solid var(--main-font-color);
+	border: 1px solid #999;
+	cursor: pointer;
 }
 
 li.addPerfil img{
 	border: none;
 	max-width: 100px;
+}
+
+li.addPerfil img:hover {
+	border: 2px solid #ccc;
+	max-width: 92px;
+}
+
+li img:hover {
+	border: 2px solid #ccc;
+	max-width: 178px;
 }
 
 li.addPerfil figure {
