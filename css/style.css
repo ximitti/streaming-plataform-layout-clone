@@ -155,7 +155,19 @@ button {
 		max-width: 140px;
 	}
 
-  li.addPerfil {
-    padding-top: 5px;
-  }
+	li.addPerfil figure {
+    margin-bottom: 35px;
+  } 
+
+}
+
+@media screen and (max-width: 376px) {
+	div.pg-home {
+		top: 75%;
+	}
+
+	ul {
+		columns: 1;
+	}
+
 }
