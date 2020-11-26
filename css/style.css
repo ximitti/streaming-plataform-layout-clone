@@ -59,12 +59,11 @@ div.pg-home{
 
 h2 { 
 	color: #ccc;
-	font-size: 40px;
+	font-size: 2.8rem;
 }
 
 h3 {
 	color: var(--main-font-color);
-	max-width: var(--max-width-figs);
 	margin: 10px 0 0 0;
 }
 
@@ -96,6 +95,7 @@ ul li h3:hover {
 footer button:hover {
 	color: var(--hover-color);
 	border-color: var(--hover-color);
+	cursor: pointer;
 }
 
 li.addPerfil img{
@@ -128,4 +128,34 @@ button {
 	display: inline-block;
 	font-size: 1.5rem;	
 	line-height: 1.5;
+}
+
+@media screen and (max-width: 769px) {
+	div.pg-home {
+		max-width: 600px;
+	}
+
+	header figure {
+		text-align: center;
+	}
+
+	section header h2 {
+		font-size: 2.3rem;
+	}
+
+	ul {
+		columns: 2;
+	}
+
+	ul li {
+		margin: 15px 0 0 0;
+	}
+
+	ul li figure img {
+		max-width: 140px;
+	}
+
+  li.addPerfil {
+    padding-top: 5px;
+  }
 }
